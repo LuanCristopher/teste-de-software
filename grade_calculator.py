@@ -28,3 +28,4 @@ def calculate_average_grade(grades: list) -> float:
         count += 1
 
     return total / count
+

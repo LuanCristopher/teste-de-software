@@ -37,3 +37,4 @@ def check_discount_eligibility(age: int, is_student: bool) -> str:
         return "20% de desconto"
     else:  # Implícito: 18 <= age < 60 and not is_student
         return "Sem desconto"
+
